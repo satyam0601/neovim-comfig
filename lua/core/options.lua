@@ -16,6 +16,8 @@ vim.opt.expandtab = true
 
 -- line numbers
 vim.wo.number = true
+vim.wo.wrap = false
+vim.opt.ruler = false
 
 -- nvim transparent
 -- vim.api.nvim_command('highlight Normal guibg=none')

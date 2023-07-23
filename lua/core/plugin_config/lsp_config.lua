@@ -23,3 +23,18 @@ require("lspconfig").pyright.setup {
   on_attach = on_attach,
   capabilities = capabilities
 }
+
+require("lspconfig").azure_pipelines_ls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
+require("lspconfig").bashls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
+require("lspconfig").jsonls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}

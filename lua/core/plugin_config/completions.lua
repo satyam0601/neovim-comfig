@@ -1,4 +1,5 @@
 local cmp = require("cmp")
+print('running cmp setup')
 cmp.setup({
   mapping = cmp.mapping.preset.insert({
     ['<C-b>'] = cmp.mapping.scroll_docs(-4),

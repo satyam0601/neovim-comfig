@@ -34,7 +34,7 @@ return require('packer').startup(function(use)
   use 'lewis6991/gitsigns.nvim'
   use 'romgrk/barbar.nvim'
   use 'L3MON4D3/LuaSnip'
-  use "lukas-reineke/indent-blankline.nvim"
+  use 'lukas-reineke/indent-blankline.nvim'
   -- Put this at the end after all plugins
   if packer_bootstrap then
     require('packer').sync()
