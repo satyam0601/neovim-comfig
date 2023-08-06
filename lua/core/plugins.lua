@@ -35,6 +35,7 @@ return require('packer').startup(function(use)
   use 'romgrk/barbar.nvim'
   use 'L3MON4D3/LuaSnip'
   use 'lukas-reineke/indent-blankline.nvim'
+  use 'm4xshen/autoclose.nvim'
   -- Put this at the end after all plugins
   if packer_bootstrap then
     require('packer').sync()
